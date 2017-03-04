@@ -1,9 +1,15 @@
-var bag = 'Yo.';
-bag = 1;
-bag = true;
-bag = {};
-bag = []; // object
+var
+isAdmin = false;
+isAdmin = 0;
+isAdmin = '';
+isAdmin = NaN;
+isAdmin = null; // 空
+isAdmin = undefined; // 未定义
 
-let bag = 'Yo.';
+if(isAdmin)
+  console.log('他是管理员');
+  // ...
+else
+  console.log('他不是管理员');
 
-console.log(typeof bag);
+// ...
